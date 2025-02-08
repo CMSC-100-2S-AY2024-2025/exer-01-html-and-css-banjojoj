@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#f5f8fa;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.header-text-cont {
+    text-align: justify;
+    width: 800px;
+}
+
+.header-text-cont > h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-text-cont > h1 {
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+.header-text-cont > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header > img {
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+hr {
+    width: 70%;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+/* About */
+.about > h3 {
+    text-align: center;
+}
+
+
+/* Projects */
+.project {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-cont {
+    width: 40%;
+    margin-bottom: 30px; 
+    text-align: justify;
+}
+
+
+/* Contact */
+.contact {
+    text-align: center;
+}
